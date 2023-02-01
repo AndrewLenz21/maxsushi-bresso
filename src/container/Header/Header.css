@@ -1,0 +1,26 @@
+.app__header {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)),url('../../assets/mid2.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.app__header h1 {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    letter-spacing: 0.02rem;
+    text-transform: uppercase;
+    line-height: 50px;
+    font-size: 50px;
+}
+.app__header-img img {
+    width: 40%;
+}
+
+@media screen and (max-width: 850px){
+    .app__header h1{
+        text-align: center;
+    }
+}
