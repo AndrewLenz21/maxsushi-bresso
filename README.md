@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# My first Proyect for a Chinese Restaurant in Italy
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created using "create-react-app"\
+Link of the restaurant: https://max-sushi.com/
 
 ## Available Scripts
 
