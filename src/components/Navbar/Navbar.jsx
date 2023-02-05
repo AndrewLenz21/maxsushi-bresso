@@ -26,12 +26,12 @@ const Navbar = () => {
   return (
     <nav className='app__navbar '>
       <div className="app__navbar-logo">
-        <Link to="/home"><img src={images.maxSushi} alt='app logo' /></Link>
+        <Link to="/"><img src={images.maxSushi} alt='app logo' /></Link>
       </div>
 
       <ul className='app__navbar-links'>
         <li className="p__opensans">
-          <Link to="/home">Home</Link>
+          <Link to="/">Home</Link>
         </li>
         <li className="p__opensans">
           <Link to="/about">About</Link>

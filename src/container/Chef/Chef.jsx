@@ -24,7 +24,7 @@ const Chef = () => {
         </div>
 
         <div className='app__chef-sign'>
-          <p>Nome Chef</p>
+          <p>Chef</p>
           <p className='p__opensans'>Chef & Founder</p>
           {/* Posible firma del chef con un img.. */}
           <img src={images.sign} alt="sign" />

@@ -1,5 +1,6 @@
 import React from 'react'
 import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
 
 import { FooterOverlay, Newsletter } from '../../components';
 import { images } from '../../constants';
@@ -24,7 +25,7 @@ const Footer = () => {
           <img src={images.spoon} alt="spoon" className='spoon__img' style={{ marginTop: '15px' }} />
           {/* ICONS */}
           <div className='app__footer-links_icons'>
-            <FiFacebook onClick={()=> window.open('https://www.facebook.com/profile.php?id=100086980758505')}/>
+            <FiFacebook onClick={()=> window.open('https://www.facebook.com/maxsushibresso/')}/>
             <FiInstagram onClick={()=> window.open('https://www.instagram.com/maxsushi_bresso/')}/>
           </div>
         </div>
@@ -37,7 +38,7 @@ const Footer = () => {
 
       </div>
       <div className='footer__copyright'>
-        <p className='p__opensans' style={{ textAlign: 'center' }}>2023 Max Sushi. All Rights Reserved</p>
+        <p className='p__opensans' style={{ textAlign: 'center' }}>2023 Max Sushi. All Rights Reserved --<Link to='/privacy-policy'> Privacy Policy</Link></p>
       </div>
 
     </div>

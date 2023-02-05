@@ -8,6 +8,8 @@ import { AboutUs, Chef, FindUs, Footer, Gallery, Header, SpecialMenu } from './c
 import { Navbar } from './components';
 import './App.css';
 import InfoContact from './container/InfoContact/InfoContact';
+import AllMenu from './container/AllMenu/AllMenu';
+import Privacy from './container/PrivacyPolicy/Privacy';
 
 // Funcion Scroll to top
 const ScrollToTop = () => {
@@ -47,7 +49,7 @@ const Menu = () => {
   return (
     <div>
       <Navbar />
-      <SpecialMenu />
+      <AllMenu />
       <Gallery />
       <Footer />
     </div>
@@ -62,7 +64,15 @@ const Contact = () => {
     </div>
   )
 };
-
+const PrivacyPolicy =() => {
+  return (
+    <div>
+      <Navbar />
+      <Privacy/>
+      <Footer/>
+    </div>
+  )
+}
 
 function App() {
   return (
@@ -74,6 +84,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/menu" element={<Menu />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy/>}/>
       </Routes>
     </div>
   )

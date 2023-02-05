@@ -1,0 +1,8 @@
+.privacy{
+    margin-top: 80px;
+    padding: 20px;
+    color: white;
+    background-color: var(--color-black);
+    font-family: var(--font-alt);
+    text-align: justify;
+}
