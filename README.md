@@ -1,4 +1,4 @@
-# My first Proyect for a Chinese Restaurant in Italy
+# My Proyect for a Chinese Restaurant in Italy
 
 This project was created using "create-react-app"\
 Link of the restaurant: https://max-sushi.com/
